@@ -1,0 +1,49 @@
+@charset "utf-8"
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin left: 25px;
+}   
+
+ {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+#nav {
+	background: Black;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	
+}
+
+#nave h1 a {
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Dancing Script', cursive;
+}
+#nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+nav vl li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nav ul li :hover {
+	background: red;
+	transition: all ease-in-out 0.40s
+}
+
+#home {
+	background: url(walpaper.jpg) no-repeat;
+	width: 50%;
+	height: 50px;
+}
